@@ -12,7 +12,9 @@ Thumbs.db
 
 # Local Claude settings (user-specific)
 .claude/settings.local.json
-.claude/memory/
+# .claude/memory/ — UN-IGNORED for worktree multi-agent workflow
+# Memory tracked in git so it propagates across worktrees via merge
+# .claude/memory/
 
 # Development artifacts
 PLAN.md
