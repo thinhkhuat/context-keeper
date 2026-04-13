@@ -1,8 +1,8 @@
 # Progress Tracker
 
 ## In Progress
-- [ ] Dogfood ConKeeper memory system in this session
-- [ ] Validate worktree isolation hypothesis
+- [x] Dogfood ConKeeper memory system — memory survived 2 compacts (2026-04-14)
+- [x] Validate worktree isolation hypothesis — confirmed collision-free (2026-04-14)
 - [x] Created conkeeper-init skill at ~/.agents/skills/conkeeper-init/ (2026-04-14)
 - [x] Updated skill to write both CLAUDE.md + AGENTS.md (2026-04-14)
 - [x] Tested tools/install.sh — fails non-interactive (expected) (2026-04-14)
